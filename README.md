@@ -32,4 +32,4 @@ Later to find the exact boundaries , I used a ***flood fill algorithm*** which r
 
 ![Alt Text](https://i.imgflip.com/3y4ue1.gif)
 
-![Alt Text](https://imgflip.com/gif/49l1pa)
+![Alt Text](https://i.imgflip.com/49l1pa.gif)
