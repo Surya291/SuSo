@@ -23,7 +23,7 @@ It's just been denoised using guassian blurring and turned into B&W .
 
 Later to find the exact boundaries , I used a ***flood fill algorithm*** which returns the largest connected blob in the snap , which usually the outer edge of the puzzle. This will later help us in determing the perspective transform (in simple words transforming the inclined pic into a neatly alligned pic) , Coz Computer Vision likes neatly alligned images.
 
-For newbies, the below is how i used flood fill algorithm
+In a nutshell , the below is how I used flood fill algorithm : 
 ***Flood Fill algo in action***
 <p align="center">
 <img src="STAGES/floodfill.gif" width="400" >
@@ -34,12 +34,13 @@ The higlighted part is the boundary of the blob found using the above step.
 <img src="STAGES/STAGE_105.jpg" width="400" >
 </p>
 
-
+By using the boundary we could find the perspective transform to potray the puzzle in a neat form. The below is the result.
 
 <p align="center">
 <img src="STAGES/STAGE_107.jpg" width="400" >
 </p>
 
+But don't you think we should also get rid of the inner grid lines.After all we just need to cutout the integer in the square , so we should better clean out those inner grid lines. I wrote a small piece of code which would fill these spots with black , making it spot less :)
 
 
 <p align="center">
