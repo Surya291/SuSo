@@ -23,6 +23,13 @@ It's just been denoised using guassian blurring and turned into B&W .
 
 Later to find the exact boundaries , I used a ***flood fill algorithm*** which returns the largest connected blob in the snap , which usually the outer edge of the puzzle. This will later help us in determing the perspective transform (in simple words transforming the inclined pic into a neatly alligned pic) , Coz Computer Vision likes neatly alligned images.
 
+For newbies, the below is how i used flood fill algorithm
+***Flood Fill algo in action***
+<p align="center">
+<img src="STAGES/floodfill.gif" width="400" >
+</p>
+
+The higlighted part is the boundary of the blob found using the above step.
 <p align="center">
 <img src="STAGES/STAGE_105.jpg" width="400" >
 </p>
@@ -41,9 +48,5 @@ Later to find the exact boundaries , I used a ***flood fill algorithm*** which r
 
 
 
-
-<p align="center">
-<img src="STAGES/floodfill.gif" width="400" >
-</p>
 
 
