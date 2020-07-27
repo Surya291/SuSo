@@ -73,9 +73,9 @@ Since you have a UI now you need not worry about the dirty scribblings over your
 <p align="center">
 <img src="STAGES/warning.png" width="400" >
 </p>
-Later when you are too bored to solve it , just push the **SOLVE** button, the computer now takes all the burden to solve the puzzle. \\
+Later when you are too bored to solve it , just push the **SOLVE** button, the computer now takes all the burden to solve the puzzle. 
 
-As said earlier I used the **Back tracking Algo** for solving this . The below is a snippet of how it really works. 
+As said earlier I used the **Back tracking Algo** for solving this . The below is a snippet of how it really works. \
 **Backtracking in Action **
 
 <p align="center">
