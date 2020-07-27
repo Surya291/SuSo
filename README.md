@@ -67,7 +67,7 @@ I also built a GUI using python tkinter. Through which the predicted digits will
 
 ## Play with it ...
 
-There is no kick in finding the solution to a puzzle without getting your hands dirty. So after predicting you would be able to solve the puzzle by placing your inputs in the GUI. If your enter a invalid entry , meaning if it disobey the rules  . **It warns you !!!**. \\ 
+There is no kick in finding the solution to a puzzle without getting your hands dirty. So after predicting you would be able to solve the puzzle by placing your inputs in the GUI. If your enter a invalid entry , meaning if it disobey the rules  . **It warns you !!!**. \
 
 Since you have a UI now you need not worry about the dirty scribblings over your newspaper. The red blocks are effected due to a invalid entry
 <p align="center">
