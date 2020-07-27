@@ -32,8 +32,7 @@ Later to find the exact boundaries , I used a ***flood fill algorithm*** which r
 <p align="center">
 <img src="STAGES/STAGE_107.jpg" width="400" >
 </p>
-![Alt Text](STAGES/floodfill.gif)
 
 ![Alt Text](STAGES/gui.gif)
-
+![Alt Text](STAGES/floodfill.gif)
 
