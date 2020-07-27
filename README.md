@@ -57,7 +57,7 @@ Now that we have everything we can now parse the rectangles with integers and pa
 <img src="STAGES/STAGE_301.jpg" width="400" >
 </p>
 
-Since now we have the digits to be predicted , I build a CNN model which was trained on MNIST dataset , and that was predicting the parsed out digits from the puzzle. \\
+Since now we have the digits to be predicted , I build a CNN model which was trained on MNIST dataset , and that was predicting the parsed out digits from the puzzle. <br/>
 
 I also built a GUI using python tkinter. Through which the predicted digits will be placed like this.
 
@@ -67,16 +67,16 @@ I also built a GUI using python tkinter. Through which the predicted digits will
 
 ## Play with it ...
 
-There is no kick in finding the solution to a puzzle without getting your hands dirty. So after predicting you would be able to solve the puzzle by placing your inputs in the GUI. If your enter a invalid entry , meaning if it disobey the rules  . **It warns you !!!**. \
+There is no kick in finding the solution to a puzzle without getting your hands dirty. So after predicting you would be able to solve the puzzle by placing your inputs in the GUI. If your enter a invalid entry , meaning if it disobey the rules  . **It warns you !!!**. <br/>
 
 Since you have a UI now you need not worry about the dirty scribblings over your newspaper. The red blocks are effected due to a invalid entry
 <p align="center">
 <img src="STAGES/warning.png" width="400" >
 </p>
-Later when you are too bored to solve it , just push the **SOLVE** button, the computer now takes all the burden to solve the puzzle. 
+Later when you are too bored to solve it , just push the **SOLVE** button, the computer now takes all the burden to solve the puzzle. <br/>
 
-As said earlier I used the **Back tracking Algo** for solving this . The below is a snippet of how it really works. \
-**Backtracking in Action **
+As said earlier I used the **Back tracking Algo** for solving this . The below is a snippet of how it really works. 
+## Backtracking in Action
 
 <p align="center">
 <img src="STAGES/gui.gif" width="400" >
