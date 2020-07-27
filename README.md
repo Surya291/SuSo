@@ -11,4 +11,21 @@ So I built a **GUI** model for it. All it has to do is create a interface for me
 </p>
 
 
+<p align="center">
+<img src="STAGES/STAGE_102.jpg" width="400" >
+</p>
+
+
+
+<p align="center">
+<img src="STAGES/STAGE_103.jpg" width="400" >
+</p>
+
+
+
+<p align="center">
+<img src="STAGES/STAGE_105.jpg" width="400" >
+</p>
+
+
 ![Alt Text](https://i.imgflip.com/3y4ue1.gif)
