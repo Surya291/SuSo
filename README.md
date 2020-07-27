@@ -6,6 +6,9 @@ While I got my hands dirty on the **Digit classification dataset problem** ,I wo
 So I built a **GUI** model for it. All it has to do is create a interface for me to solve the sudoku , and when I quit(which is usually the case :) , I would ask the computer to solve it.
 
 ## Behind the scenes
-![Screenshot](STAGES/STAGE_101.jpg)
+
+❮img src="STAGES/STAGE_101.jpg" width="100" ❯
+
+
 
 ![Alt Text](https://i.imgflip.com/3y4ue1.gif)
