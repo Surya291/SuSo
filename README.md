@@ -2,13 +2,11 @@
 **Sudoku Solver**.
 
 ## Project in a nutshell 
-While I got my hands dirty on the **Digit classification dataset problem** ,I wondered where could I possibly use it . One idea which hit my head was to solve a sudoku. I could just take a snap of the sudoku from the newspaper and the computer could solve it for me , I learnt that **backtracking** would work well to solve the sudoku but I had to inupt the numbers, which was not at all cool. I also found out that I could build a **Computer Vision** solution to it , which could possibly predict the digits and empty spaces. That's what it all took to start **#Su-So**. Besides that there has been many implementations with this project such as real time projections on the paper. It too didn't hit me interesting. At the end if I could predict the sudoku , I should be able to play with  it as well,
+While I got my hands dirty on the **Digit classification dataset problem** ,I wondered where could I possibly use it . One idea which hit my head was to solve a sudoku. I could just take a snap of the sudoku from the newspaper and the computer could solve it for me , I learnt that **backtracking** would work well to solve the sudoku but I had to inupt the numbers, which was not at all cool. I also found out that I could build a **Computer Vision** solution to it , which could possibly predict the digits and empty spaces. That's what it all took to start **#Su-So**. <br/>
+Besides that there has been many implementations with this project such as real time projections on the paper. It too didn't hit me interesting. At the end if I could predict the sudoku , I should be able to play with  it as well. <br/>
 So I built a **GUI** model for it. All it has to do is create a interface for me to solve the sudoku , and when I quit(which is usually the case :) , I would ask the computer to solve it.
 
-A good source was : 
-```
-https://aishack.in/tutorials/sudoku-grabber-opencv-plot/
-```
+
 ## Behind the scenes
 This is the Sudoku snapshot taken.
 
@@ -45,7 +43,7 @@ But don't you think we should also get rid of the inner grid lines.After all we 
 <img src="STAGES/STAGE_201.jpg" width="400" >
 </p>
 
-We can decide the presence of a number just by dividing the image into 81 pieces and can check whether it has enough white pixels to contain an element , this is done by providing a therehold value of pixels (e.g; 5*255). Later after finding them out we need to enlarge them out so that they fit the square which are parsed out. \\
+We can decide the presence of a number just by dividing the image into 81 pieces and can check whether it has enough white pixels to contain an element , this is done by providing a therehold value of pixels (e.g; 5*255). Later after finding them out we need to enlarge them out so that they fit the square which are parsed out. <br/>
 For this I implemented a bounding box method , where I return a rectangle bounding the integer and just parse it out leaving the outer portion and then enlarging it to the initial box.The result will be like this. 
 <p align="center">
 <img src="STAGES/STAGE_202.jpg" width="400" >
@@ -82,7 +80,17 @@ As said earlier I used the **Back tracking Algo** for solving this . The below i
 <img src="STAGES/gui.gif" width="400" >
 </p>
 
+## How can you use it ??
+Just clone this repository into your machine , and place the image of the puzzle in test_images directory. <br/>
+P.S : Dont forget to install the necessary libraries.
+Run the run.py file. 
 
+```
+python3 run.py
+```
 
-
+A good source was : 
+```
+https://aishack.in/tutorials/sudoku-grabber-opencv-plot/
+```
 
