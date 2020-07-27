@@ -9,6 +9,6 @@ So I built a **GUI** model for it. All it has to do is create a interface for me
 
 ❮img src="STAGES/STAGE_101.jpg" width="100" ❯
 
-
+![Screenshot](STAGES/STAGE_101.jpg)
 
 ![Alt Text](https://i.imgflip.com/3y4ue1.gif)
