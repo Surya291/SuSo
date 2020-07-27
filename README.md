@@ -6,16 +6,18 @@ While I got my hands dirty on the **Digit classification dataset problem** ,I wo
 So I built a **GUI** model for it. All it has to do is create a interface for me to solve the sudoku , and when I quit(which is usually the case :) , I would ask the computer to solve it.
 
 ## Behind the scenes
+This is the Sudoku snapshot taken.
+
 <p align="center">
 <img src="STAGES/STAGE_101.jpg" width="400" >
 </p>
 
-
+It's just been denoised using guassian blurring and turned into B&W .
 <p align="center">
 <img src="STAGES/STAGE_102.jpg" width="400" >
 </p>
 
-
+Later to find the exact boundaries , I used a ***flood fill algorithm*** which returns the largest connected blob in the snap , which usually the outer edge of the puzzle. This will later help us in determing the perspective transform (in simple words transforming the inclined pic into a neatly alligned pic) , Coz Computer Vision likes neatly alligned images.
 
 <p align="center">
 <img src="STAGES/STAGE_105.jpg" width="400" >
