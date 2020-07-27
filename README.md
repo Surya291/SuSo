@@ -40,8 +40,43 @@ By using the boundary we could find the perspective transform to potray the puzz
 <img src="STAGES/STAGE_107.jpg" width="400" >
 </p>
 
-But don't you think we should also get rid of the inner grid lines.After all we just need to cutout the integer in the square , so we should better clean out those inner grid lines. I wrote a small piece of code which would fill these spots with black , making it spot less :)
+But don't you think we should also get rid of the inner grid lines.After all we just need to cutout the integer in the square , so we should better clean out those inner grid lines. I wrote a small piece of code which would fill these spots with black .
+<p align="center">
+<img src="STAGES/STAGE_201.jpg" width="400" >
+</p>
 
+We can decide the presence of a number just by dividing the image into 81 pieces and can check whether it has enough white pixels to contain an element , this is done by providing a therehold value of pixels (e.g; 5*255). Later after finding them out we need to enlarge them out so that they fit the square which are parsed out. \\
+For this I implemented a bounding box method , where I return a rectangle bounding the integer and just parse it out leaving the outer portion and then enlarging it to the initial box.The result will be like this. 
+<p align="center">
+<img src="STAGES/STAGE_202.jpg" width="400" >
+</p>
+
+Now that we have everything we can now parse the rectangles with integers and pass it to a model which predicts digits. 
+
+<p align="center">
+<img src="STAGES/STAGE_301.jpg" width="400" >
+</p>
+
+Since now we have the digits to be predicted , I build a CNN model which was trained on MNIST dataset , and that was predicting the parsed out digits from the puzzle. \\
+
+I also built a GUI using python tkinter. Through which the predicted digits will be placed like this.
+
+<p align="center">
+<img src="STAGES/final_gui.png" width="400" >
+</p>
+
+## Play with it ...
+
+There is no kick in finding the solution to a puzzle without getting your hands dirty. So after predicting you would be able to solve the puzzle by placing your inputs in the GUI. If your enter a invalid entry , meaning if it disobey the rules  . **It warns you !!!**. \\ 
+
+Since you have a UI now you need not worry about the dirty scribblings over your newspaper. The red blocks are effected due to a invalid entry
+<p align="center">
+<img src="STAGES/warning.png" width="400" >
+</p>
+Later when you are too bored to solve it , just push the **SOLVE** button, the computer now takes all the burden to solve the puzzle. \\
+
+As said earlier I used the **Back tracking Algo** for solving this . The below is a snippet of how it really works. 
+**Backtracking in Action **
 
 <p align="center">
 <img src="STAGES/gui.gif" width="400" >
