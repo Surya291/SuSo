@@ -89,8 +89,11 @@ Run the run.py file.
 python3 run.py
 ```
 
+Despite using CNN I was not able to predict the digits with 100% accuracy, If you have any better or different ideas please feel free to connect.
 A good source was : 
 ```
 https://aishack.in/tutorials/sudoku-grabber-opencv-plot/
 ```
+
+Cheers !!
 
