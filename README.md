@@ -18,7 +18,7 @@ So I built a **GUI** model for it. All it has to do is create a interface for me
 
 
 <p align="center">
-<img src="STAGES/STAGE_102.jpg" width="400" >
+<img src="STAGES/STAGE_105.jpg" width="400" >
 </p>
 
 
